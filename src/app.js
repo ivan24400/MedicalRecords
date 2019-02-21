@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const Web3 = require('web3');
-const web3 = new Web3(Web3.providers.HttpProvider('https://rinkeby.infura.io/v3/51869939a0854cbabc6b68f98e2c29cd'));
+const web3 = new Web3(Web3.providers.HttpProvider('https://ropsten.infura.io/v3/51869939a0854cbabc6b68f98e2c29cd'));
 const path = require('path');
 
 app.use(bodyParser.json());
